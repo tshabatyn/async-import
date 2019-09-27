@@ -39,4 +39,12 @@
             </argument>
         </arguments>
     </type>
+    <!-- ConvertingRulesProcessor -->
+    <type name="Magento\AsynchronousImportApi\Model\ConvertingRulesProcessorChain">
+        <arguments>
+            <argument name="ruleProcessors" xsi:type="array">
+                <item name="attribute_set_name_to_id" xsi:type="object">Magento\AsynchronousImport\Model\Import\ConvertingRule\AttributeSetNameToId</item>
+            </argument>
+        </arguments>
+    </type>
 </config>
