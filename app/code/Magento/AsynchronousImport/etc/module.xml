@@ -7,5 +7,9 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Magento_AsynchronousImport"/>
+    <module name="Magento_AsynchronousImport">
+        <sequence>
+            <module name="Magento_Eav"/>
+        </sequence>
+    </module>
 </config>
