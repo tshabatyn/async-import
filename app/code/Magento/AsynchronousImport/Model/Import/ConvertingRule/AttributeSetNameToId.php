@@ -74,6 +74,8 @@ class AttributeSetNameToId implements ConvertingRuleProcessorInterface
     }
 
     /**
+     * Retrieves attribute_set_id by the attribute_set_name and entity_type_code
+     *
      * @param string $name
      * @param string $entityTypeCode
      * @return int
